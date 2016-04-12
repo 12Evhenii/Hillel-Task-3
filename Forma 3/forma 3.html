@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма тестирования</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+
+<div class="testing">
+<h3>Форма тестирования</h3>
+<hr />
+
+    <form action="#" method="post" name="testForm">
+
+        <p>Ваше имя: <sup>*</sup></p>
+
+            <input type="text" name="yourName" id="yourName" size="53" required />
+
+        <p>Ваш возраст: <sup>*</sup></p>
+
+            <input type="radio" name="age" value="before20" id="before20"/>
+            <label for="before20">до 20</label><br />
+
+            <input type="radio" name="age" value="20-30" id="20-30"/>
+            <label for="20-30">от 20 до 30</label><br />
+
+            <input type="radio" name="age" value="30-40" id="30-40"/>
+            <label for="30-40">от 30 до 40</label><br />
+
+            <input type="radio" name="age" value="40-50" id="40-50"/>
+            <label for="40-50">от 40 до 50</label><br />
+
+            <input type="radio" name="age" value="after50" id="after50"/>
+            <label for="after50">больше 50</label><br />
+
+
+        <p>Есть ли у Вас собственный сайт или блог: <sup>*</sup></p>
+
+            <input type="radio" name="site" value="Yes" id="Yes"/>
+            <label for="Yes">Да, есть</label><br />
+
+            <input type="radio" name="site" value="planned" id="planned"/>
+            <label for="planned">Нет, но я планирую создать</label><br />
+
+            <input type="radio" name="site" value="notNeed" id="notNeed"/>
+            <label for="notNeed">Нет, мне он не нужен</label><br />
+
+        <p>Есть ли у Вас аккаунт в одной или нескольких соц.сетях: <sup>*</sup></p>
+
+            <input type="checkbox" name="account" value="classmates" id="classmates"/>
+            <label for="classmates">Одноклассники</label><br />
+
+            <input type="checkbox" name="account" value="vk" id="vk"/>
+            <label for="vk">Вконтакте</label><br />
+
+            <input type="checkbox" name="account" value="facebook" id="facebook"/>
+            <label for="facebook">Facebook</label><br />
+
+            <input type="checkbox" name="account" value="twitter" id="twitter"/>
+            <label for="twitter">Twitter</label><br />
+
+            <input type="checkbox" name="account" value="google" id="google"/>
+            <label for="google">Google+</label><br />
+
+            <input type="checkbox" name="account" value="yourOption" id="yourOption">
+            <label for="yourOption">Свой вариант: </label><input type="text" name="yourOption" size="23"/><br />
+
+        <input type="submit" name="submit" value="Отправить">
+
+    </form>
+</div>
+
+</body>
+</html>

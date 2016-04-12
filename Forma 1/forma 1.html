@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма оформления заказа</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<h2>Форма оформления заказа</h2>
+
+    <form action="#" method="post" name="orderForm">
+        <div class="fields">
+            <div class="field">
+
+                    <p>ФИО: <sup>*</sup></p>
+                    <input type="text" name="fio" required />
+
+                    <p>E-mail: <sup>*</sup></p>
+                    <input type="email" name="email" required />
+
+                    <p>Телефон: </p>
+                    <input type="tel" name="tel" />
+
+                    <p>Наименование товара: <sup>*</sup></p>
+                    <select name="goods" size="1" required>
+                        <option value="goods1">Товар №1</option>
+                        <option value="goods2">Товар №2</option>
+                        <option value="goods3">Товар №3</option>
+                    </select>
+
+                    <p>Количество: <sup>*</sup></p>
+                    <input type="number" name="number" required />
+
+                    <p id="last">Дата доставки: <sup>*</sup></p>
+                    <input type="date" name="date" required />
+                    <div class="last"></div>
+            </div>
+
+            <div class="buttons">
+                <button name="submit" id="submit">Отправить</button> <button name="reset" id="reset">Очистить</button>
+            </div>
+
+        </div>
+    </form>
+
+</body>
+</html>

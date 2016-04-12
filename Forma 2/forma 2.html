@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма голосования</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<h1>Форма голосования</h1>
+<hr />
+  <div class="socialNetwork">
+
+      <p>Какой социальной сетью Вы пользуетесь чаще всего: <sup>*</sup></p>
+
+        <form action="#" method="post" name="voteForm">
+
+              <input type="radio" name="networks" value="facebook" id="facebook" checked />
+              <label for="facebook">Facebook</label><br />
+
+              <input type="radio" name="networks" value="vk" id="vk"/>
+              <label for="vk">Вконтакте</label><br />
+
+              <input type="radio" name="networks" value="classmates" id="classmates"/>
+              <label for="classmates">Однокласники</label><br />
+
+              <input type="radio" name="networks" value="google" id="google"/>
+              <label for="google">Google+</label><br />
+
+              <input type="radio" name="networks" value="twitter" id="twitter"/>
+              <label for="twitter">Twitter</label><br />
+
+
+              <input type="radio" name="networks" value="yourOption" id="yourOption">
+              <label for="yourOption">Свой вариант: </label><input type="text" name="yourOption" /><br />
+
+              <input type="submit" name="submit" value="Отправить">
+
+      </form>
+  </div>
+
+</body>
+</html>

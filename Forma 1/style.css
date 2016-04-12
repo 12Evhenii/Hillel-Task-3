@@ -1,0 +1,64 @@
+body {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    background: #444444;
+    color: white;
+    width: 600px;
+    height: 50px;
+    padding-top: 15px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.buttons {
+    height: 73px;
+    background: #444444;
+}
+
+.fields {
+    width: 600px;
+    height: 460px;
+}
+
+.field {
+    width: 560px;
+    margin-left: 20px;
+}
+
+.last {
+    margin-bottom: 20px;
+}
+
+#submit {
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+#reset {
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+sup {
+    color: red;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    background: linear-gradient(#DCDCDC, #FFFFFF);
+}
+
+select {
+    width: 405px;
+    height: 36px;
+    background: linear-gradient(#DCDCDC, #FFFFFF);
+}
